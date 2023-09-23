@@ -1,0 +1,15 @@
+﻿Console.WriteLine("Введите число");
+string num1 = Console.ReadLine();
+int numInt1 = Convert.ToInt32(num1);
+Console.WriteLine("Введите второе число");
+string num2 = Console.ReadLine();
+int numInt2 = Convert.ToInt32(num2);
+Console.WriteLine("Введите третье");
+string num3 = Console.ReadLine();
+int numInt3 = Convert.ToInt32(num3); 
+int max = numInt1;
+if (numInt2> max);
+max = numInt2;
+if (numInt3 > max) ;
+max = numInt3;
+Console.WriteLine("Самаое больше число " + max);
